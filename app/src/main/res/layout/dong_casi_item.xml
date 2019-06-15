@@ -23,6 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
+        android:maxLines="1"
+        android:ellipsize="end"
         android:layout_below="@id/textviewTencasi"
         android:layout_margin="5dp"
         android:textStyle="italic"
@@ -31,7 +33,15 @@
         android:textColor="#264E9E"
         android:text="Email"
         android:layout_toRightOf="@id/imageviewCasi"
-        android:id="@+id/textviewGiamonan"
+        android:id="@+id/textviewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+
+        android:layout_toRightOf="@id/imageviewCasi"
+        android:layout_below="@id/textviewEmail"
+        android:id="@+id/buttonSave"
+        android:text="Save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
